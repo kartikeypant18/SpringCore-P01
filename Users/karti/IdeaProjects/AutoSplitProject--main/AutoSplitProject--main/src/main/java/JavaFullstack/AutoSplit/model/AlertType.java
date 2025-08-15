@@ -1,0 +1,5 @@
+package JavaFullstack.AutoSplit.model;
+public enum AlertType {
+    THRESHOLD_60, THRESHOLD_80, THRESHOLD_100,
+    BURN_RATE, SPIKE, UNDERUSE, GOAL, BALANCE_SHIFT, RECURRING, ACHIEVEMENT
+}
